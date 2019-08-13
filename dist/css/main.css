@@ -12,6 +12,12 @@
   display: flex;
   flex-direction: column; }
 
+.bounces {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  margin: 0; }
+
 .link {
   display: flex; }
 
@@ -19,7 +25,8 @@
   color: aliceblue;
   text-transform: uppercase;
   font-size: 20px;
-  margin-right: 15px; }
+  margin-right: 15px;
+  font-family: "Poppins-Regular"; }
 
 .linc:hover {
   color: #bad4f1;
@@ -74,16 +81,19 @@
   padding-left: 15px;
   color: aliceblue;
   text-transform: uppercase;
-  padding-right: 15px; }
+  padding-right: 15px;
+  font-family: "Poppins-Regular"; }
 
 .tre {
   margin-right: 20px;
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  font-family: "Poppins-Regular"; }
 
 .reta {
   color: aliceblue;
   text-transform: uppercase;
-  padding-right: 15px; }
+  padding-right: 15px;
+  font-family: "Poppins-Regular"; }
 
 .hr {
   margin-top: 0.75rem;
@@ -98,11 +108,13 @@
   font-size: 80px; }
 
 .fiol {
-  color: #af95ef; }
+  color: #af95ef;
+  font-family: "Poppins-Regular"; }
 
 .bla {
   font-size: 22px;
-  color: #85879a; }
+  color: #85879a;
+  font-family: "Poppins-Regular"; }
 
 .slog {
   display: flex; }
@@ -110,7 +122,8 @@
 .werto {
   color: #999a9a;
   margin-top: 50px;
-  font-size: 14px; }
+  font-size: 14px;
+  font-family: "Poppins-Regular"; }
 
 button.btn.btn-light.dert {
   padding-left: 30px;
@@ -131,6 +144,12 @@ button.btn.btn-light.dert {
   overflow: hidden;
   width: 100%; }
 
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url("../src/fonts/Poppins-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal; }
+
 @media screen and (max-width: 520px) {
   .body {
     margin: 0;
@@ -139,6 +158,11 @@ button.btn.btn-light.dert {
     display: flex;
     flex-direction: column;
     min-width: 100%; }
+  .bounces {
+    display: flex;
+    flex-direction: column;
+    min-width: 100%;
+    margin: 0; }
   .linc {
     text-transform: uppercase;
     font-size: 14px;
@@ -179,3 +203,9 @@ button.btn.btn-light.dert {
   .socium {
     align-self: center;
     margin: 0; } }
+
+@media screen and (min-width: 720px) {
+  .tre {
+    font-size: 45px; }
+  .fiol {
+    font-size: 45px; } }
