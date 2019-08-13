@@ -15,6 +15,13 @@
     flex-direction: column;
 }
 
+.bounces {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
 .link {
     display: flex;
 }
@@ -24,6 +31,7 @@
     text-transform: uppercase;
     font-size: 20px;
     margin-right: 15px;
+    font-family: "Poppins-Regular";
 }
 
 .linc:hover {
@@ -31,28 +39,10 @@
     text-decoration: underline;
 }
 
-.romb {
-    width: 15px;
-    height: 15px;
-    background: linear-gradient(45deg, rgb(144, 165, 235), rgb(100, 230, 173));
-    /* Rotate */
-    -webkit-transform: rotate(-45deg);
-    -moz-transform: rotate(-45deg);
-    -ms-transform: rotate(-45deg);
-    -o-transform: rotate(-45deg);
-    transform: rotate(-45deg);
-    /* Rotate Origin */
-    -webkit-transform-origin: 0 100%;
-    -moz-transform-origin: 0 100%;
-    -ms-transform-origin: 0 100%;
-    -o-transform-origin: 0 100%;
-    transform-origin: 0 100%;
-    margin: 10px 0px 0px 15px;
-}
-
 .logo {
     display: flex;
     background-color: #484040;
+    border-radius: 6px;
 }
 
 .fit {
@@ -87,17 +77,20 @@
     color: aliceblue;
     text-transform: uppercase;
     padding-right: 15px;
+    font-family: "Poppins-Regular";
 }
 
 .tre {
     margin-right: 20px;
     margin-bottom: 0;
+    font-family: "Poppins-Regular";
 }
 
 .reta {
     color: aliceblue;
     text-transform: uppercase;
     padding-right: 15px;
+    font-family: "Poppins-Regular";
 }
 
 .hr {
@@ -116,11 +109,13 @@
 
 .fiol {
     color: #af95ef;
+    font-family: "Poppins-Regular";
 }
 
 .bla {
     font-size: 22px;
     color: #85879a;
+    font-family: "Poppins-Regular";
 }
 
 .slog {
@@ -131,13 +126,14 @@
     color: #999a9a;
     margin-top: 50px;
     font-size: 14px;
+    font-family: "Poppins-Regular";
 }
 
 button.btn.btn-light.dert {
     padding-left: 30px;
     padding-right: 30px;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .ico {
@@ -154,4 +150,11 @@ button.btn.btn-light.dert {
     border-style: none;
     overflow: hidden;
     width: 100%;
+}
+
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url("../src/fonts/Poppins-Regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
 }

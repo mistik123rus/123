@@ -8,6 +8,12 @@
         flex-direction: column;
         min-width: 100%;
     }
+    .bounces {
+        display: flex;
+        flex-direction: column;
+        min-width: 100%;
+        margin: 0;
+    }
     .linc {
         text-transform: uppercase;
         font-size: 14px;
@@ -60,5 +66,14 @@
     .socium {
         align-self: center;
         margin: 0;
+    }
+}
+
+@media screen and (min-width: 720px) {
+    .tre {
+        font-size: 45px;
+    }
+    .fiol {
+        font-size: 45px;
     }
 }
